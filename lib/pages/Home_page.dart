@@ -14,7 +14,11 @@ final int a = 30;
  ),
     body:Center(
     child:Container(
-    child:Text("Welcome to $a days days of flutter by $s"),
+    child:Text("Welcome to $a days days of flutter by $s",style: TextStyle(
+      color: Color.fromARGB(255, 151, 81, 2),
+      fontSize: 14,
+      fontWeight: FontWeight.bold,
+    ),),
    ),
  ),
     drawer:Drawer(),
